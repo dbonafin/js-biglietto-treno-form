@@ -1,14 +1,47 @@
 body {
-    background-color: lightcoral;
+    background-color: #b91450;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+h3 {
+    text-transform: uppercase;
 }
 
 .form-item {
-    padding: 1rem 0;
+    padding: 1rem;
+}
+
+.ms_info_box {
+    background-color: white;
+    padding: 1rem;
+}
+
+.ticket-creator {
+    border-radius: 10px; 
 }
 
 .ticket-result {
-    padding-top: 5rem;
     display: none;
+}
+
+.ticket-creator > div:not(.buttons-area) {
+    display: inline-block;
+    text-align: center;
+}
+
+.buttons-area {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.ticket-result > div {
+    display: inline-block;
 }
 
 .active {
