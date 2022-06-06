@@ -5,3 +5,12 @@ body {
 .form-item {
     padding: 1rem 0;
 }
+
+.ticket-result {
+    padding-top: 5rem;
+    display: none;
+}
+
+.active {
+    display: block;
+}
