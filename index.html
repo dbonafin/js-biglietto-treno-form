@@ -10,6 +10,43 @@
 </head>
 
 <body>
+
+    <!-- USER INFO AREA -->
+
+    <!-- NAME INPUT -->
+    <div class="form-item">
+        <label for="user-name">Nome e Cognome</label>
+        <input type="text" id="user-name">
+    </div>
+
+    <!-- DISTANCE INPUT -->
+    <div class="form-item">
+        <label for="user-km">Km da percorrere</label>
+        <input type="number" id="user-km">
+    </div>
+
+    <!-- AGE INPUT -->
+    <div class="form-item">
+        <label for="user-age">Fascia d'età</label>
+
+        <select id="user-age">
+            <option value="maggiorenne">Maggiorenne</option>
+            <option value="minorenne">Maggiorenne</option>
+            <option value="over">Over 65</option>
+        </select>
+    </div>
+
+    <!-- BUTTONS AREA -->
+    <div>
+        <button id="create-button">Genera</button>
+        <button id="cancel-button">Annulla</button>
+    </div>
+
+    <!-- TICKET AREA -->
+    <div class="ticket-result">
+        <div class="ticket-name"></div>
+        <div class="ticket price"></div>
+    </div>
     
     <script type="text/javascript" src="js/script.js"></script>
 </body>
