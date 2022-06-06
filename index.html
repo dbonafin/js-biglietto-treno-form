@@ -19,19 +19,19 @@
 
         <!-- NAME INPUT -->
         <div class="form-item">
-           <label for="user-name">Nome e Cognome</label>
+           <label for="user-name">Nome e Cognome</label> <br>
            <input type="text" id="user-name">
        </div>
    
        <!-- DISTANCE INPUT -->
        <div class="form-item">
-           <label for="user-km">Km da percorrere</label>
+           <label for="user-km">Km da percorrere</label> <br>
            <input type="number" id="user-km">
        </div>
    
        <!-- AGE INPUT -->
        <div class="form-item">
-           <label for="user-age">Fascia d'età</label>
+           <label for="user-age">Fascia d'età</label> <br>
    
            <select id="user-age">
                <option value="maggiorenne">Maggiorenne</option>
@@ -42,21 +42,27 @@
    
        <!-- BUTTONS AREA -->
        <div class="buttons-area">
-           <button id="create-button">Genera</button>
-           <button id="cancel-button">Annulla</button>
+           <button class="btn ms_button" id="create-button">Genera</button>
+           <button class="btn ms_button" id="cancel-button">Annulla</button>
        </div>
    
     </div>
    
-    <h2>il tuo biglietto</h2>
+  
     <!-- TICKET AREA -->
+
+    <h2>il tuo biglietto</h2>
     <div class="ticket-result container ms_info_box">
         <h3>dettaglio passeggeri</h3>
-        <div id="ticket-name"></div>
-        <div id="ticket-class"></div>
-        <div id="ticket-vagon"></div>
-        <div id="ticket-code"></div>
-        <div id="ticket-price"></div>
+
+        <div class="result-info"> 
+            <div id="ticket-name">Nome passaggero </div>
+            <div id="ticket-class"></div>
+            <div id="ticket-vagon"></div>
+            <div id="ticket-code"></div>
+            <div id="ticket-price"></div>
+        </div>
+        
     </div>
     
     <script type="text/javascript" src="js/script.js"></script>

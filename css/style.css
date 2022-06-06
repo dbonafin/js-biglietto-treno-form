@@ -1,3 +1,5 @@
+/* COMMON */
+
 body {
     background-color: #b91450;
 }
@@ -6,7 +8,7 @@ h2 {
     text-transform: uppercase;
     color: white;
     text-align: center;
-    padding: 4rem 0;
+    padding: 2rem 0;
 }
 
 h3 {
@@ -22,12 +24,21 @@ h3 {
     padding: 1rem;
 }
 
-.ticket-creator {
-    border-radius: 10px; 
+label {
+    color: #b91450;
 }
 
-.ticket-result {
-    display: none;
+input, select {
+    border: 1px solid #b91450;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+/* TICKET CREATOR AREA */
+
+.ticket-creator {
+    border-radius: 10px; 
+    text-align: center;
 }
 
 .ticket-creator > div:not(.buttons-area) {
@@ -40,10 +51,34 @@ h3 {
     padding-top: 2rem;
 }
 
-.ticket-result > div {
-    display: inline-block;
+.ms_button {
+    color: #b91450;
+    background-color: lightgray;
+    border-color: #b91450;
 }
 
+/* TICKET RESULT AREA */
+
+.ticket-result {
+    display: none;
+    margin-bottom: 3rem;
+}
+
+#ticket-name {
+    background-color: gray;
+}
+
+.result-info {
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+.result-info > div {
+    display: inline-block;
+    padding: 2rem 1rem;
+}
+
+/* SHOW THE RESULT OF THE TICKET */
 .active {
     display: block;
 }
